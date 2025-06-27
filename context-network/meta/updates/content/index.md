@@ -10,7 +10,9 @@ This document indexes all updates related to the actual content, information, an
 - **Confidence:** Established
 
 ## Items in this Category
-*No content updates yet.*
+
+### 2025-06-27: [Ink CLI Transformation](./ink_cli_transformation.md)
+Major transformation of the Node-TypeScript context network template into an Ink CLI-specific template, including updated project definition, CLI design guide, and specialized documentation patterns.
 
 ## Related Categories
 - [Structure Updates](../structure/index.md)

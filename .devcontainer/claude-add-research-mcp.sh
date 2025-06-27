@@ -1,0 +1,1 @@
+claude mcp add --transport sse research http://host.docker.internal:3100/mcp-sse

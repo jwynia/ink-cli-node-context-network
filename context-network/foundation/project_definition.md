@@ -1,7 +1,7 @@
 # Project Definition
 
 ## Purpose
-This document defines the core purpose, goals, and scope of the Software Project Context Network template.
+This document defines the core purpose, goals, and scope of the Ink CLI Context Network template.
 
 ## Classification
 - **Domain:** Core Concept
@@ -13,25 +13,25 @@ This document defines the core purpose, goals, and scope of the Software Project
 
 ### Project Overview
 
-The Node-TypeScript Context Network is a specialized template for starting new Node.js TypeScript projects with built-in LLM management and navigation capabilities. It provides a structured approach to managing the complex web of decisions, designs, and domain knowledge that underlies Node-TypeScript development, while maintaining a clear separation between planning artifacts (context network) and implementation code (app/ directory).
+The Ink CLI Context Network is a specialized template for starting new Ink-based command-line applications with built-in LLM management and navigation capabilities. It provides a structured approach to managing the complex web of decisions, designs, and domain knowledge that underlies React-based terminal UI development, while maintaining a clear separation between planning artifacts (context network) and implementation code (app/ directory).
 
 ### Vision Statement
 
-To transform Node-TypeScript development by creating a seamless bridge between human developers, AI agents, and project knowledge, enabling teams to navigate the rapidly evolving Node.js ecosystem and build more maintainable, comprehensible, and evolvable TypeScript applications.
+To transform Ink CLI development by creating a seamless bridge between human developers, AI agents, and project knowledge, enabling teams to navigate the evolving terminal UI ecosystem and build more maintainable, comprehensible, and evolvable React-based command-line applications.
 
 ### Mission Statement
 
-The Node-TypeScript Context Network template provides development teams with a structured knowledge management system that captures the "why" behind Node-TypeScript decisions, preserves institutional knowledge about framework choices and configurations, facilitates onboarding to complex Node.js projects, and enables AI-assisted development through clear separation of planning and implementation artifacts.
+The Ink CLI Context Network template provides development teams with a structured knowledge management system that captures the "why" behind CLI design decisions, preserves institutional knowledge about component architecture and user interaction patterns, facilitates onboarding to complex terminal applications, and enables AI-assisted development through clear separation of planning and implementation artifacts.
 
 ### Project Objectives
 
-1. Provide a specialized context network structure optimized for Node.js TypeScript projects
-2. Establish clear patterns for documenting Node-TypeScript architecture decisions, framework selections, and configuration choices
-3. Create navigation paths tailored to Node.js development roles and TypeScript-specific tasks
-4. Enable effective collaboration between human developers and AI agents in the Node.js ecosystem
-5. Reduce knowledge silos around framework choices, build configurations, and TypeScript patterns
-6. Document decision-making processes for the rapidly evolving Node.js ecosystem
-7. Preserve institutional knowledge about TypeScript configuration and tooling choices
+1. Provide a specialized context network structure optimized for Ink CLI projects
+2. Establish clear patterns for documenting CLI architecture decisions, component selections, and user interaction design choices
+3. Create navigation paths tailored to CLI development roles and terminal UI-specific tasks
+4. Enable effective collaboration between human developers and AI agents in the Ink ecosystem
+5. Reduce knowledge silos around component architecture, input handling, and terminal compatibility patterns
+6. Document decision-making processes for the evolving terminal UI ecosystem
+7. Preserve institutional knowledge about CLI user experience design and terminal rendering optimization
 
 ### Success Criteria
 
@@ -48,23 +48,23 @@ The Node-TypeScript Context Network template provides development teams with a s
 
 #### In Scope
 
-- Context network structure specialized for Node.js TypeScript development
-- Templates for Node-TypeScript architecture decision records (ADRs)
-- Node.js component and module documentation patterns
-- TypeScript-specific process documentation templates
-- Node.js ecosystem technical debt tracking mechanisms
-- Navigation guides for Node.js development roles and TypeScript workflows
-- Integration patterns with Node.js project structures and package.json
-- Maintenance strategies for keeping documentation in sync with TypeScript code
-- Framework selection decision templates (Express, Fastify, Next.js, etc.)
-- TypeScript configuration and build tool decision frameworks
-- Node.js deployment and environment configuration guidance
-- Package management and dependency strategy documentation
+- Context network structure specialized for Ink CLI development
+- Templates for CLI architecture decision records (ADRs)
+- Ink component and terminal UI documentation patterns
+- CLI-specific process documentation templates
+- Terminal UI ecosystem technical debt tracking mechanisms
+- Navigation guides for CLI development roles and Ink-specific workflows
+- Integration patterns with Ink project structures and package.json
+- Maintenance strategies for keeping documentation in sync with CLI code
+- Component architecture decision templates (layout, input handling, rendering)
+- Terminal compatibility and user experience decision frameworks
+- CLI distribution and installation configuration guidance
+- User interaction design and accessibility strategy documentation
 
 #### Out of Scope
 
-- Actual Node.js/TypeScript implementation code (belongs in app/ directory)
-- Specific framework boilerplate or starter code
+- Actual Ink/React implementation code (belongs in app/ directory)
+- Specific CLI boilerplate or starter code
 - Pre-configured build systems or bundlers
 - Specific testing framework implementations
 - Continuous integration/continuous deployment (CI/CD) pipeline configurations
@@ -75,25 +75,25 @@ The Node-TypeScript Context Network template provides development teams with a s
 
 | Role | Responsibilities | Representative(s) |
 |------|-----------------|-------------------|
-| Node.js Developers | Use the context network alongside TypeScript development | Node.js development teams |
-| TypeScript Architects | Document Node-TypeScript architectural decisions and system design | Node.js architecture teams |
-| Technical Leads | Ensure alignment between context network and Node.js implementation | Node.js team leads |
-| New Team Members | Learn about the Node.js project through the context network | Onboarding Node.js developers |
-| AI Agents | Navigate and update the context network based on Node-TypeScript interactions | LLM assistants with Node.js knowledge |
-| DevOps Engineers | Reference deployment and environment configuration decisions | Infrastructure teams |
+| CLI Developers | Use the context network alongside Ink CLI development | CLI development teams |
+| UI/UX Architects | Document CLI user experience and terminal UI architectural decisions | CLI design teams |
+| Technical Leads | Ensure alignment between context network and Ink CLI implementation | CLI team leads |
+| New Team Members | Learn about the CLI project through the context network | Onboarding CLI developers |
+| AI Agents | Navigate and update the context network based on Ink CLI interactions | LLM assistants with CLI knowledge |
+| End Users | Provide feedback on CLI usability and user experience | CLI application users |
 
 ### Timeline
 
-This is a template project without specific timeline milestones. Each Node-TypeScript implementation will have its own timeline.
+This is a template project without specific timeline milestones. Each Ink CLI implementation will have its own timeline.
 
 ### Constraints
 
 - Must work with existing LLM agent capabilities and limitations
 - Should be compatible with standard version control systems (Git)
-- Must be Node.js and TypeScript ecosystem focused
-- Should not require specialized tools beyond text editors, LLM agents, and Node.js tooling
+- Must be Ink CLI and terminal UI ecosystem focused
+- Should not require specialized tools beyond text editors, LLM agents, and Ink tooling
 - Must maintain separation between context network and app/ directory
-- Should work with common Node.js development environments
+- Should work with common terminal environments and CLI development workflows
 
 ### Assumptions
 
